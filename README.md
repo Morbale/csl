@@ -22,3 +22,6 @@ code to run thickness analysis on good and bad weld images
 	Withiout Filtering:
 
 		python code/main.py --filter 0
+
+7. If filter is used for pre-processing, filtered images are stored in csl/data/processed/pre_processed folder
+8. Final images, thickness profiles and statistical testing results are stored in csl/data/processed/contour_analysis folder
