@@ -1,5 +1,5 @@
 # csl
-code to run thickness analysis on good and bad weld images
+Code to run thickness analysis on good and bad weld images collected from sensors
 
 1. Create a Virtual Environment in the csl Folder:
    
