@@ -15,35 +15,3 @@ code to run thickness analysis on good and bad weld images
 		python code/main.py --filter 1
 	Withiout Filtering:
 		python code/main.py --filter 0
-
-
-Folder Structure:
-
-csl/
-│
-├── code/
-│   ├── main.py
-│   ├── apply_filters.py
-│   ├── contour.py
-│   ├── statistical_analysis.py
-│   └── __init__.py
-│
-├── data/
-│   ├── raw/
-│   │   ├── good/
-│   │   └── bad/
-│   └── processed/
-│       ├── pre_processed/
-│       │   ├── good/
-│       │   └── bad/
-│       └── contour_analysis/
-│           ├── post_processed/
-│           │   ├── good/
-│           │   └── bad/
-│           ├── thickness_profiles/
-│           │   ├── good/
-│           │   └── bad/
-│           └── statistical_testing/
-│
-├── requirements.txt
-└── README.md
